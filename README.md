@@ -15,3 +15,7 @@ You can also display a message to users that aren’t eligible to register for t
 
 - If the checkbox for “*Is this a member only event?*” has been set for a particular event, then users that are not eligible to register for the member only event will NOT see the Register Now button and will be presented with the message as set in the UI. 
 If users manage to force themselves to the event registration page, then they will be redirected back to the event info page and displayed with the message as set in the UI
+
+![Member Only Event Setting](/images/member_only_event.JPG?raw=true "Member Only Event Setting")
+
+![Member Only Display Message](/images/member_only_event_2.JPG?raw=true "Member Only Display Message")
