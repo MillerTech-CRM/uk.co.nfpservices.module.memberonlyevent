@@ -1,6 +1,9 @@
 Member Only Event
 =================
 
+
+**This repository has been moved to https://lab.civicrm.org/extensions/memberonlyevent. Please visit the new location for the latest updates and contributions.**
+
 - *Do you want to restrict registration to certain events to logged in members only but still have other events open to the public?* 
 If the answer to the above question is yes, then this extension is for you. 
 This extension allows you to set a flag to any event so registration is restricted to those that have a current membership. 
@@ -19,3 +22,6 @@ If users manage to force themselves to the event registration page, then they wi
 ![Member Only Event Setting](/images/member_only_event.JPG?raw=true "Member Only Event Setting")
 
 ![Member Only Display Message](/images/member_only_event_2.JPG?raw=true "Member Only Display Message")
+
+
+**This repository has been moved to https://lab.civicrm.org/extensions/memberonlyevent. Please visit the new location for the latest updates and contributions.**
