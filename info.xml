@@ -8,8 +8,8 @@
     <author>MillerTech</author>
     <email>vakeesan@millertech.co.uk</email>
   </maintainer>
-  <releaseDate>2022-12-12</releaseDate>
-  <version>1.3.1</version>
+  <releaseDate>2024-08-29</releaseDate>
+  <version>1.3.2</version>
   <urls>
     <url desc="Main Extension Page">https://civicrm.org/extensions/member-only-event</url>
     <url desc="Documentation">https://github.com/MillerTech-CRM/uk.co.nfpservices.module.memberonlyevent</url>
@@ -18,13 +18,19 @@
   </urls>
   <develStage>stable</develStage>
   <compatibility>
-    <ver>4.7</ver>
-    <ver>5.0</ver>
+    <ver>5.27</ver>
   </compatibility>
-  <comments>
-  <![CDATA[ Do you want to restrict registration to certain events to members only but still have other events open to the public?<br/>If the answer to the above question is yes, then this extension is for you.]]>
-  </comments>
+  <comments><![CDATA[ Do you want to restrict registration to certain events to members only but still have other events open to the public?<br/>If the answer to the above question is yes, then this extension is for you.]]></comments>
   <civix>
     <namespace>CRM/Memberonlyevent</namespace>
+    <format>23.02.1</format>
   </civix>
+  <mixins>
+    <mixin>menu-xml@1.0.0</mixin>
+    <mixin>smarty-v2@1.0.3</mixin>
+  </mixins>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
